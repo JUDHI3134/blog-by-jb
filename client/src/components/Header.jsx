@@ -16,7 +16,7 @@ const Header = () => {
               <p className='my-6 sm:my-8 max-w-2xl m-auto max-sm:text-xs text-gray-500'>Explore our AI-powered blog for smart insights, automated content, and real-time updates that transform writing, trends, and productivity using intelligent tools.</p>
 
               <form className='flex justify-between max-w-lg max-sm:scale-75 mx-auto border border-gray-300 bg-white rounded overflow-hidden'>
-                  <input className='w-full pl-4 outline-none' type="text" placeholder='Search for blogs' />
+                  <input className='w-full pl-4 outline-none' type="text" placeholder='Search for blogs' required />
                   <button className=' bg-primary text-white px-8 py-2 m-1.5 rounded hover:scale-105 transition-all cursor-pointer' type="submit">Search</button>
               </form>
 
