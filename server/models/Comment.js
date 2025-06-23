@@ -7,6 +7,6 @@ const commentSchema = new mongoose.Schema({
     isApproved:{type:Boolean, default: false}
 }, { timestamps: true })
 
-const Comment = mongoose.model("Comment", commentSchema)
+const Comment = mongoose.model("comment", commentSchema)
 
 export default Comment;

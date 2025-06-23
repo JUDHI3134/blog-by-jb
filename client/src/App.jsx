@@ -14,7 +14,6 @@ import { useAppContext } from "./context/AppContext"
 const App = () => {
 
   const { token } = useAppContext()
-  console.log(token)
 
   return (
     <div>
